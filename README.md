@@ -1,7 +1,7 @@
 # Brain MRI Images for Brain Tumor Detection
 ## Image Augmentation and Deep Learning (CNN)
 
-The Brain MRI Images for Brain Tumor Detection dataset contains two types of data, tumorous and non-tumorous. 
+The *Brain MRI Images for Brain Tumor Detection* dataset contains two types of data, tumorous and non-tumorous. 
 
 First we perform image augmentation using keras's ImageDataGenerator function to increase the variance of our data and to increase the number of samples. We also attempt to correct for any class imbalances in the data by generating additional tumorous samples. We then first crop the images by finding extreme points in the contours and then resize the data. Finally, we use a convolutional neural network to attempt to classify if an image is tumorous or non-tumorous.
 
